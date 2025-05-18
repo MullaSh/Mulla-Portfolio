@@ -290,3 +290,27 @@ footer {
         left: 21px;
     }
 }
+
+/* Error States */
+#contactForm .error {
+    border: 2px solid #e74c3c !important;
+    animation: shake 0.3s;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+/* Loading State */
+button[type="submit"]:disabled {
+    background: #95a5a6 !important;
+    cursor: not-allowed;
+}
