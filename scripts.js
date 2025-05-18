@@ -66,4 +66,20 @@ document.addEventListener('DOMContentLoaded', function() {
         item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
         observer.observe(item);
     });
+
+    // Scroll ke atas saat copyright diklik
+    document.querySelector('.footer-click').addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    document.querySelector('a[href^="mailto:"]').addEventListener('click', function(e) {
+    try {
+        if (!navigator.clipboard) {
+            alert("Email copied: mshadra6@gmail.com");
+            e.preventDefault();
+        }
+    } catch (err) {
+        console.error("Email client not found");
+    }
+});
 });
