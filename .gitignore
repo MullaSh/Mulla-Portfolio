@@ -1,0 +1,31 @@
+# Logs
+*.log
+logs/
+
+# Editor temporary files (sesuaikan jika Anda menggunakan editor lain)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.asv
+*.iml
+
+# Build output (jika ada proses build)
+build/
+dist/
+out/
+tmp/
+temp/
+
+# Dependencies
+node_modules/
+
+# Cypress specific folders that might contain temporary data
+cypress/downloads/*
+cypress/screenshots/*
+cypress/videos/*
+cypress/cache/
+
+# System files
+.DS_Store
+Thumbs.db
