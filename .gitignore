@@ -20,12 +20,6 @@ temp/
 # Dependencies
 node_modules/
 
-# Cypress specific folders that might contain temporary data
-cypress/downloads/*
-cypress/screenshots/*
-cypress/videos/*
-cypress/cache/
-
 # System files
 .DS_Store
 Thumbs.db

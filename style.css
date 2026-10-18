@@ -316,3 +316,6 @@ button[type="submit"]:disabled {
     background: #95a5a6 !important;
     cursor: not-allowed;
 }
+.footer-click {
+    cursor: pointer;
+}
