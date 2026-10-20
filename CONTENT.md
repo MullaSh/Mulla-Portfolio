@@ -21,7 +21,7 @@
 - Tag: `✓ Hi there, I'm Mulla Shadra`
 - Status pill: **Open to new QA roles**
 - H1: **QA Engineer** based in Jakarta
-- Lead: I test banking and distribution systems end to end, from FSD analysis and SQL data checks to Katalon automation.
+- Lead: I test banking and distribution systems end to end, from FSD analysis to SQL data checks, and I use AI to design sharper tests, faster.
 - Buttons: **Get in touch** (→ #contact) · **Download CV** (→ `assets/cv-mulla-shadra.pdf`)
 - Social: "Find me on:" LinkedIn · Email
 - Photo alt: Portrait of Mulla Shadra
