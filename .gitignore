@@ -23,3 +23,8 @@ node_modules/
 # System files
 .DS_Store
 Thumbs.db
+
+# Private notes (never publish)
+_notes/
+*.private.md
+MASTER-CONTEXT.md
