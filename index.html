@@ -1,204 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mulla Shadra | QA Manual Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mulla Shadra · QA Engineer</title>
+  <meta name="description" content="QA Engineer based in Jakarta. End-to-end testing of banking and distribution systems, SQL data validation and Katalon automation built on the Page Object Model.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600&family=Karla:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Mulla Shadra</h1>
-            <p>IT Professional & Quality Assurance Engineer</p>
+
+<header>
+  <div class="container nav">
+    <a href="#top" class="logo"><span class="logo-mark">M</span>Mulla</a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+    <ul class="menu" id="menu">
+      <li><a href="#top" class="active">Home</a></li>
+      <li><a href="#work">What I do</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-top"><span class="tag"><span class="h1x"></span>✓ Hi there, I'm Mulla Shadra</span><span class="status"><span class="dot"></span>Open to new QA roles</span></div>
+        <h1><span class="hl">QA Engineer</span><br>based in Jakarta</h1>
+        <p class="lead">I test banking and distribution systems end to end, from FSD analysis and SQL data checks to Katalon automation.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Get in touch
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+          <a class="btn-text" href="assets/cv-mulla-shadra.pdf" target="_blank" rel="noopener">Download CV
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M12 4v11m0 0-5-5m5 5 5-5M5 20h14"/></svg></a>
         </div>
-    </header>
-
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <div class="social">Find me on:
+          <a class="fill" href="https://www.linkedin.com/in/mulla-shadra/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9.5h4V21H3zM10 9.5h3.8v1.7h.05c.53-1 1.84-2.05 3.78-2.05C21.6 9.15 22 11.6 22 14.8V21h-4v-5.5c0-1.3 0-3-1.85-3s-2.15 1.45-2.15 2.9V21h-4z"/></svg></a>
+          <a href="mailto:mshadra6@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg></a>
         </div>
-    </nav>
-
-    <section id="about" class="section">
-        <div class="container">
-            <h2>ABOUT ME</h2>
-            <div class="about-content">
-                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-img">
-                <p>I am an IT professional with a background in Business Information Technology from BINUS University and hands-on experience in enterprise-scale banking and financial systems. 
-                    I currently work as a Quality Assurance Staff, where I am involved in end-to-end system validation, covering UI, API, backend business logic, and transactional database processes.
-                    I have strong experience in manual and automation testing, implementing regression and functional automation using Katalon Studio and Selenium, with a focus on improving test coverage, script reusability, and system reliability. 
-                    I regularly perform data validation using SQL and conduct defect analysis to ensure consistency between system behavior and business requirements.
-                    Possess a solid understanding of Information System Analysis and Design (ISAD). 
-                    I actively analyze functional specifications, business rules, and system flows, and understand how user interactions trigger APIs, how APIs orchestrate backend logic, and how data is securely processed at the database level. 
-                    I am experienced in supporting requirement validation through use case, activity, and class diagrams, bridging business needs with technical implementation.
-                    With strong analytical thinking, attention to detail, and a continuous improvement mindset, I aim to contribute not only as a QA Automation specialist, but also as an IT professional with system analysis capability, supporting high-quality, scalable, and well-governed information systems.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section id="skills" class="section">
-        <div class="container">
-            <h2>SKILLS</h2>
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <i class="fas fa-bug"></i>
-                    <h3>Manual Testing</h3>
-                    <p>Functional, regression, and UI/UX testing</p>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-file-alt"></i>
-                    <h3>Test Documentation</h3>
-                    <p>Test cases, test plans, bug reports</p>
-                </div>
-                <div class="skill-item">
-                    <i class="fas fa-tools"></i>
-                    <h3>Testing Tools</h3>
-                    <p>JIRA, Katalon, Postman, Selenium</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>SKILLS</h2>
-
-            <div class="skills-grid">
-                <div class="skill-item">
-                    <i class="fas fa-check-circle"></i>
-                    <h3>Quality Assurance Fundamentals</h3>
-                    <p>
-                        Test case & test scenario design, functional, regression, negative & boundary testing, 
-                        defect lifecycle, and UAT support.
-                    </p>
-                </div>
-
-                <div class="skill-item">
-                    <i class="fas fa-robot"></i>
-                    <h3>Test Automation & Tools</h3>
-                    <p>
-                        Katalon Studio (Web UI automation), Selenium WebDriver (ongoing exploration), 
-                        Postman for API testing, JIRA / Redmine for defect tracking.
-                    </p>
-                </div>
-
-                <div class="skill-item">
-                    <i class="fas fa-database"></i>
-                    <h3>Backend & Data Validation</h3>
-                    <p>
-                        End-to-end flow validation (UI → API → backend services → database), 
-                        SQL Server data validation, transaction and data integrity checking.
-                    </p>
-                </div>
-
-                <div class="skill-item">
-                    <i class="fas fa-project-diagram"></i>
-                    <h3>System Analysis & Documentation</h3>
-                    <p>
-                        Functional specification analysis, business rules and system flow understanding, 
-                        ISAD fundamentals, and use case, activity, and class diagrams.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="experience" class="section">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h3>Quality Assurance - Porfescipta Wahanateknik</h3>
-                    <p class="date">Dec 2024 - Present</p>
-                    <ul>
-                        <li>Perform end-to-end internal testing across enterprise banking and financial systems, covering UI, API,
-                            backend business logic, and database validation to ensure system reliability and compliance.</li>
-                        <li>Design, maintain, and execute manual and automated test cases, including negative, boundary, and
-                            regression scenarios, aligned with business and technical requirements.</li>
-                        <li>Implement test automation using Katalon Studio or Selenium Webdriver, focusing on reusable test scripts,
-                            regression efficiency, and improved test coverage.</li>
-                        <li>Analyze functional specifications, business rules, and system flows as part of Information System Analysis
-                            and Design (ISAD) to ensure test scenarios reflect real business processes.</li>
-                        <li>Validate end-to-end data flow from UI → API → backend services → transactional databases, ensuring data
-                            integrity and correct system behavior.</li>
-                        <li>Identify, document, and track defects using Redmine, providing clear impact analysis, reproduction steps,
-                            and collaboration with developers for timely resolution.</li>
-                        <li>Collaborate closely with System Analysts, Developers, and Project Managers to validate requirements,
-                            support change implementation, and ensure smooth deployment to testing and UAT environments.</li>    
-                        <li>Support system readiness and UAT preparation, ensuring alignment with banking and financial system
-                            standards prior to client delivery.</li>
-                    </ul>
-                </div>
-                <div class="timeline-item">
-                    <h3>QA Internship - Phintraco Consulting</h3>
-                    <p class="date">Feb 2023 - Feb 2024</p>
-                    <ul>
-                        <li>Testing on mobile application (Android and iOS) </li>
-                        <li>Create test case for software development project</li>
-                        <li>Execute test cases and create defect reports</li>
-                        <li>Maintain bugs list and reproduce production issues</li>
-                        <li>Involved in SIT and Internal Regression test stages</li>
-                        <li>Collaborate with Project Manager (PM), Scrum Master (SM), Developer, and Product Owner</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm" action="https://formspree.io/f/meognwwa" method="POST">
-                <input type="hidden" name="_subject" value="Pesan dari Portfolio QA">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-    <div class="container">
-        <p class="footer-click">&copy; 2025 Mulla Shadra. All rights reserved.</p>
-        <div class="contact-info">
-            <!-- Email as text with icon -->
-            <div class="email-item">
-                <i class="fas fa-envelope"></i>
-                <span>mshadra6@gmail.com</span>
-            </div>
-            
-            <!-- Social Links -->
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/mulla-shadra/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/Mullash" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-        </div>
+      </div>
+      <div class="photo-wrap">
+        <img class="photo" src="assets/profile.jpg" width="640" height="800" alt="Portrait of Mulla Shadra">
+      </div>
     </div>
+  </section>
+
+  <!-- BAND (static) -->
+  <div class="band" aria-hidden="true">
+    <ul><li>Functional Testing</li><li class="star">✦</li><li>End-to-End Testing</li><li class="star">✦</li><li>SQL Data Validation</li><li class="star">✦</li><li>Katalon Automation</li><li class="star">✦</li><li>UAT Support</li></ul>
+  </div>
+
+  <!-- WHAT I DO -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="tag"><span class="h1x"></span>[ PASSED ] What I do</span><h2>Quality from the requirement down to the database</h2></div>
+        <p>I don't stop at the screen. I follow each business flow through the backend and the data it leaves behind.</p>
+      </div>
+      <ul class="do-list">
+        <li><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.2"><path d="m4 12 5 5L20 6"/></svg></span>
+          <div><h3>Functional &amp; end-to-end testing</h3><p>Business flows across UI, backend and database, on desktop and mobile.</p></div><span class="fact">Banking · Distribution</span></li>
+        <li><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.2"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h7"/></svg></span>
+          <div><h3>Test design from FSDs</h3><p>Specifications turned into positive, negative and boundary scenarios.</p></div><span class="fact">139 cases in one project</span></li>
+        <li><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.2"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v12c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/></svg></span>
+          <div><h3>SQL data validation</h3><p>Each test run traced through the database, from raw file to delivery status.</p></div><span class="fact">SQL Server</span></li>
+        <li><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.2"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13 6l-2 12"/></svg></span>
+          <div><h3>Test automation</h3><p>Regression suites in Katalon Studio and Groovy, structured with the Page Object Model.</p></div><span class="fact">38 reusable keywords</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects" style="background:var(--surface)">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="tag"><span class="h1x"></span>[ PASSED ] Projects</span><h2>Selected work</h2></div>
+        <p>Client names are anonymized. The details are real.</p>
+      </div>
+      <article class="featured">
+        <div class="featured-text">
+          <div class="pills"><span class="pill">Featured case study</span><span class="pill">Banking</span></div>
+          <h3>Bond e-statement platform</h3>
+          <p>A monthly statement engine for a multinational bank. It matches three raw files, builds encrypted PDF statements, holds them for a verifier's review, then emails customers. I covered it from the FSD down to the database, and automated the regression.</p>
+          <ol class="steps"><li>FSD analysis</li><li>Test design</li><li>SQL validation</li><li>Katalon automation</li></ol>
+          <p class="story"><strong>How the automation grew:</strong> I started with Katalon's record-and-playback. Exploring Selenium WebDriver with AI as a study partner taught me the Page Object Model, and I brought that idea back to Katalon as reusable custom keywords.</p>
+          <div class="hero-actions" style="margin:8px 0 0">
+            <a class="btn" href="assets/case-study-bond-estatement.pdf" target="_blank" rel="noopener">Read the case study (PDF)
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+            <a class="btn-text" href="#framework">Automation framework ↓</a>
+          </div>
+        </div>
+        <div class="featured-stats">
+          <div><span class="big">139</span><span>test cases across 6 modules</span></div>
+          <div><span class="big">1 in 3</span><span>cases are negative scenarios</span></div>
+          <div><span class="big">6</span><span>pipeline layers checked in SQL</span></div>
+          <div><span class="big">38</span><span>reusable Katalon keywords</span></div>
+        </div>
+      </article>
+
+      <div class="fw" id="framework">
+        <div class="fw-head">
+          <h3>Inside the automation framework</h3>
+          <p>A Page Object Model built with Katalon custom keywords. Each layer has one job, so a UI change is fixed in one place.</p>
+        </div>
+        <div class="fw-grid">
+          <div class="fw-card">
+            <h4><span class="fw-num">1</span>Locator</h4>
+            <p>Kept in the Object Repository. One parameterized object finds any row.</p>
+<pre>//td[normalize-space()=<span class="y">'${code}'</span>]</pre>
+          </div>
+          <div class="fw-card">
+            <h4><span class="fw-num">2</span>Page action</h4>
+            <p>One keyword per page action, built from small steps. Shared steps come from a common package.</p>
+<pre><span class="c">// EmailTempAction.groovy</span>
+def addNewEmailTemplate(...) {
+  openForm()
+  fillBasicInfo(code, name, type, subject)
+  fillEmailBody()
+  <span class="y">handleActivePeriod(from, to)</span>  <span class="c">// shared</span>
+  <span class="y">handleCriteria()</span>              <span class="c">// shared</span>
+  <span class="y">saveForm()</span>                    <span class="c">// shared</span>
+}</pre>
+          </div>
+          <div class="fw-card">
+            <h4><span class="fw-num">3</span>Test case</h4>
+            <p>Reads like the business steps. No locators, no waits.</p>
+<pre>openWeb()
+login()
+goToEmailTemplate()
+addNewEmailTemplate(...)
+verifyApprovalStatus(code, <span class="y">"New"</span>)</pre>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="other-title">Other projects I've worked on</h3>
+      <ul class="other">
+        <li><div><h4>Bond confirmation e-statements</h4><p>Test design, negative scenarios and issue tracking for buy/sell, coupon and maturity confirmations.</p></div><span class="pill">Banking</span></li>
+        <li><div><h4>Banking file processing &amp; reporting</h4><p>Raw file intake, consolidation, reconciliation and CSV/XLSX outputs validated against the database.</p></div><span class="pill">Banking</span></li>
+        <li><div><h4>Distribution Management System</h4><p>End-to-end testing across a desktop admin app and its mobile sales app.</p></div><span class="pill">Distribution</span></li>
+        <li><div><h4>Self-service telecom app</h4><p>Android and iOS functional testing, with UI checks against Figma designs.</p></div><span class="pill">Mobile</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head">
+        <div><span class="tag"><span class="h1x"></span>[ PASSED ] Experience</span><h2>1 year 9 months in QA, plus a 1-year internship</h2></div>
+      </div>
+      <ul class="exp">
+        <li><span class="when">Apr 2026 – Sep 2026</span><div><h3>Software QA · PT Bosnet Distribution Indonesia</h3><p>Test design and end-to-end testing for an enterprise Distribution Management System, desktop and mobile.</p></div></li>
+        <li><span class="when">Dec 2024 – Mar 2026</span><div><h3>Software QA Staff · PT Profescipta Wahanteknik</h3><p>Banking e-statement, reporting and reconciliation systems. Introduced a keyword-driven Katalon framework, based on the Page Object Model, to the QA team.</p></div></li>
+        <li><span class="when">Feb 2023 – Feb 2024</span><div><h3>QA Intern · PT Phincon</h3><p>Android and iOS testing of a self-service app for a major telecom provider.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about" style="background:var(--surface)">
+    <div class="container">
+      <div style="text-align:center"><span class="tag"><span class="h1x"></span>[ PASSED ] About me</span></div>
+      <h2 class="about-statement">An IT professional with a QA focus. I test the whole flow, not just the screen, and I'm growing toward system analysis.</h2>
+      <div class="about-grid">
+        <div class="about-box"><h3>Education</h3><ul><li><b style="color:var(--ink)">BINUS University</b></li><li>B.Sc. Information Systems, Business IT</li><li>2020 – 2024 · GPA 3.71</li></ul></div>
+        <div class="about-box"><h3>Skills</h3><ul class="skills"><li>Functional testing</li><li>Regression</li><li>FSD analysis</li><li>SQL Server</li><li>Katalon</li><li>Groovy</li><li>Redmine</li><li>AI tools (ChatGPT, Claude)</li><li class="learning">Selenium</li><li class="learning">Postman</li></ul><p class="note">Dashed = currently learning</p><p class="ai-note">I use AI as a sparring partner: drafting and challenging test cases, brainstorming edge cases and comparing tools. I review and verify every output myself.</p></div>
+        <div class="about-box"><h3>Beyond work</h3><ul><li>Gym and sports</li><li>Indonesian (native), English (professional)</li><li>Based in Jakarta, Indonesia</li></ul></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact">
+  <div class="container">
+    <div class="contact-row">
+      <div><p class="avail"><span class="dot"></span>Available now · based in Jakarta</p><h2>Hiring a <span class="y">QA Engineer</span>? Let's talk.</h2></div>
+      <div class="hero-actions" style="margin:0">
+        <a class="btn" href="mailto:mshadra6@gmail.com">mshadra6@gmail.com</a>
+        <a class="btn-text" href="https://www.linkedin.com/in/mulla-shadra/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="foot"><span>© <span id="year">2026</span> Mulla Shadra</span><span>Built with HTML, CSS, a little JavaScript and some help from AI</span></div>
+  </div>
 </footer>
 
-    <script src="scripts.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
