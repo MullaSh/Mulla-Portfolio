@@ -39,6 +39,7 @@ a {
 }
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 .container {
@@ -309,6 +310,9 @@ header {
 }
 .photo {
   position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   border: 2px solid var(--ink);
   box-shadow: 12px 12px 0 var(--ink);
   background: var(--surface);
