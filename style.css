@@ -747,6 +747,11 @@ header {
   .band ul {
     font-size: 17px;
     padding: 18px 16px;
+    gap: 10px 24px;
+  }
+  /* Hide the ✦ separators on small screens so wrapped lines stay clean */
+  .band li.star {
+    display: none;
   }
 }
 @media (max-width: 600px) {
