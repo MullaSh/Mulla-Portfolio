@@ -8,7 +8,7 @@
 
 ## Page meta
 
-- **Tab title:** Mulla Shadra · QA Engineer
+- **Tab title:** Mulla Shadra · Web Development
 - **Meta description:** QA Engineer based in Jakarta. End-to-end testing of banking and distribution systems, SQL data validation and Katalon automation built on the Page Object Model.
 
 ## 1. Header
