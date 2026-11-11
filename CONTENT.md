@@ -14,7 +14,7 @@
 ## 1. Header
 
 - Logo: **M** · Mulla
-- Menu: Home · What I do · Projects · Experience · About · Contact
+- Menu: Home · What I do · Projects · Side projects · Experience · About · Contact
 
 ## 2. Hero
 
@@ -100,10 +100,25 @@ verifyApprovalStatus(code, "New")
 
 > Code is simplified from the real project: parameter types and the `CustomKeywords` wrapper are left out. Source files: `Keywords/email_template/EmailTempAction.groovy`, `Scripts/email_template/AddET`, `Object Repository/email_template/table_td_TempCode`.
 
-### 5.3 Second case study: Multi-outlet POS
+### 5.3 Other projects I've worked on
 
-- Anchor: `#pos`. Layout mirrors the featured card: stats on the left, text on the right, screenshots below.
-- Pills: Case study · Build · F&B retail · ✓ Client-approved
+| Project | Description | Pill |
+|---|---|---|
+| Bond confirmation e-statements | Test design, negative scenarios and issue tracking for buy/sell, coupon and maturity confirmations. | Banking |
+| Banking file processing & reporting | Raw file intake, consolidation, reconciliation and CSV/XLSX outputs validated against the database. | Banking |
+| Distribution Management System | End-to-end testing across a desktop admin app and its mobile sales app. | Distribution |
+| Self-service telecom app | Android and iOS functional testing, with UI checks against Figma designs. | Mobile |
+
+## 6. Side projects
+
+- Tag: `[ PASSED ] Side projects`
+- H2: Things I build outside my day job
+- Intro: Personal builds, separate from my employment history. I test the code I write the same way I test anyone else's.
+
+### 6.1 Multi-outlet POS
+
+- Anchor: `#pos`. Same card style as the featured case study (text left, stats right), with a row of screenshots below.
+- Pills: Personal project · F&B retail · ✓ Client-approved
 - H3: Multi-outlet POS for a dimsum business
 - Description: A point-of-sale web app for four outlets and a central kitchen, built on Google Apps Script with Google Sheets as the database. Cashiers sell from a phone, and every sale deducts raw ingredients through a two-level recipe model.
 - Steps: 1 Analysis · 2 Requirements · 3 Database design · 4 Build · 5 Testing
@@ -117,16 +132,7 @@ verifyApprovalStatus(code, "New")
 - Screenshots (phone, 384×820 WebP): 1 · Cashier builds the cart · 2 · Digital receipt, no printer · 3 · Owner dashboard
 - Note under screenshots: Screens from the test database. Brand, contacts and outlet names are masked.
 
-### 5.4 Other projects I've worked on
-
-| Project | Description | Pill |
-|---|---|---|
-| Bond confirmation e-statements | Test design, negative scenarios and issue tracking for buy/sell, coupon and maturity confirmations. | Banking |
-| Banking file processing & reporting | Raw file intake, consolidation, reconciliation and CSV/XLSX outputs validated against the database. | Banking |
-| Distribution Management System | End-to-end testing across a desktop admin app and its mobile sales app. | Distribution |
-| Self-service telecom app | Android and iOS functional testing, with UI checks against Figma designs. | Mobile |
-
-## 6. Experience
+## 7. Experience
 
 - Tag: `[ PASSED ] Experience`
 - H2: 1 year 9 months in QA, plus a 1-year internship
@@ -137,7 +143,7 @@ verifyApprovalStatus(code, "New")
 | Dec 2024 – Mar 2026 | Software QA Staff · PT Profescipta Wahanteknik | Banking e-statement, reporting and reconciliation systems. Introduced a keyword-driven Katalon framework, based on the Page Object Model, to the QA team. |
 | Feb 2023 – Feb 2024 | QA Intern · PT Phincon | Android and iOS testing of a self-service app for a major telecom provider. |
 
-## 7. About
+## 8. About
 
 - Tag: `[ PASSED ] About me`
 - Statement: An IT professional with a QA focus. I test the whole flow, not just the screen, and I'm growing toward system analysis.
@@ -158,7 +164,7 @@ verifyApprovalStatus(code, "New")
 - Indonesian (native), English (professional)
 - Based in Jakarta, Indonesia
 
-## 8. Contact (footer)
+## 9. Contact (footer)
 
 - Availability: Available now · based in Jakarta
 - H2: Hiring a **QA Engineer**? Let's talk.

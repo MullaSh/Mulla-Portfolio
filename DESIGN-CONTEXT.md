@@ -46,18 +46,18 @@
 
 ## 6. Page map (single page)
 
-1. **Header**: logo "M" + Mulla; Home · What I do · Projects · Experience · About · Contact.
+1. **Header**: logo "M" + Mulla; Home · What I do · Projects · Side projects · Experience · About · Contact.
 2. **Hero**: QA tag + "Open to new QA roles" pill; H1 "QA Engineer based in Jakarta" with yellow highlight; Get in touch + Download CV; LinkedIn and email icons; photo in a plain frame (2px border, 12px black offset shadow, no decorations).
 3. **Band**: static, straight black band with yellow borders listing core skills, separated by ✦.
 4. **What I do**: 4 rows with yellow icon squares and one real fact each.
 5. **Projects**:
    - Featured case study card (Bond e-statement platform) with steps, the "How the automation grew" story, PDF button and a stats panel.
    - **Inside the automation framework** (`#framework`): 3 cards, Locator → Page action → Test case, with short code.
-   - **Second case study** (`#pos`, Multi-outlet POS): same card style, mirrored (stats left, text right), with a row of 3 phone screenshots below. Stacks text → stats → screenshots at ≤ 900px.
    - "Other projects" list. A future case study can be promoted to the featured slot.
-6. **Experience**: timeline of 3 roles, heading "1 year 9 months in QA, plus a 1-year internship".
-7. **About**: IT-neutral statement, then Education, Skills (dashed chips = learning, AI note), Beyond work.
-8. **Contact footer**: black block, "Available now · based in Jakarta", "Hiring a QA Engineer? Let's talk.", email + LinkedIn.
+6. **Side projects** (`#side-projects`, white): personal builds kept apart from employment. Card `#pos` (Multi-outlet POS) uses the featured card style plus a row of 3 phone screenshots; stacks text → stats → screenshots at ≤ 900px.
+7. **Experience** (surface): timeline of 3 roles, heading "1 year 9 months in QA, plus a 1-year internship".
+8. **About** (white): IT-neutral statement, then Education, Skills (dashed chips = learning, AI note), Beyond work.
+9. **Contact footer**: black block, "Available now · based in Jakarta", "Hiring a QA Engineer? Let's talk.", email + LinkedIn.
 
 Each case study lives in its PDF (`assets/case-study-bond-estatement.pdf`, `assets/case-study-pos-multi-outlet.pdf`), not on a separate page.
 

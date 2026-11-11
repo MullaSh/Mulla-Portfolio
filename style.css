@@ -529,16 +529,7 @@ header {
   padding: 1px 7px;
   margin-right: 6px;
 }
-/* Second case study (POS): stats on the left, screenshots below */
-.case-two {
-  margin-top: 64px;
-  grid-template-columns: 0.8fr 1.2fr;
-}
-.case-two .featured-stats {
-  order: -1;
-  border-left: 0;
-  border-right: 2px solid var(--ink);
-}
+/* Side project card (POS): featured card + screenshot row */
 .pill-ok {
   background: var(--accent);
 }
@@ -792,10 +783,6 @@ header {
   .featured-stats {
     border-left: 0;
     border-top: 2px solid var(--ink);
-  }
-  .case-two .featured-stats {
-    order: 0;
-    border-right: 0;
   }
   .about-grid {
     grid-template-columns: 1fr;
