@@ -174,7 +174,7 @@ verifyApprovalStatus(code, "New")
 | `assets/profile.jpg` (4:5 crop of the white-background portrait) | ready |
 | `assets/cv-mulla-shadra.pdf` (English CV) | to provide |
 | `assets/case-study-bond-estatement.pdf` (deck exported as PDF) | ready |
-| `assets/case-study-pos-multi-outlet.pdf` (POS deck exported as PDF) | export from the Slides artifact |
+| `assets/case-study-pos-multi-outlet.pdf` (POS deck exported as PDF) | ready |
 | `assets/pos-cashier.webp`, `pos-receipt.webp`, `pos-dashboard.webp` (masked screenshots) | ready |
 
 ## Open items
