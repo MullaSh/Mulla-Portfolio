@@ -1,8 +1,8 @@
 # CONTENT: Mulla Shadra Portfolio
 
 > All website text, section by section, in English. Safe to keep in the public repo.
-> **Status:** draft for review · **Last updated:** 20 October 2026
-> Rules: client names stay anonymized, no invented metrics, "learning" skills stay labeled, no "remote" claim.
+> **Status:** draft for review · **Last updated:** 11 November 2026
+> Rules: client names stay anonymized (POS: no brand, logo, phone, outlet names, web app link or spreadsheet ID), no invented metrics, "learning" skills stay labeled, no "remote" claim.
 
 ---
 
@@ -100,7 +100,24 @@ verifyApprovalStatus(code, "New")
 
 > Code is simplified from the real project: parameter types and the `CustomKeywords` wrapper are left out. Source files: `Keywords/email_template/EmailTempAction.groovy`, `Scripts/email_template/AddET`, `Object Repository/email_template/table_td_TempCode`.
 
-### 5.3 Other projects I've worked on
+### 5.3 Second case study: Multi-outlet POS
+
+- Anchor: `#pos`. Layout mirrors the featured card: stats on the left, text on the right, screenshots below.
+- Pills: Case study · Build · F&B retail · ✓ Client-approved
+- H3: Multi-outlet POS for a dimsum business
+- Description: A point-of-sale web app for four outlets and a central kitchen, built on Google Apps Script with Google Sheets as the database. Cashiers sell from a phone, and every sale deducts raw ingredients through a two-level recipe model.
+- Steps: 1 Analysis · 2 Requirements · 3 Database design · 4 Build · 5 Testing
+- Story: **A QA engineer's first build:** made with AI as a pair programmer. My testing habits did the rest: every rule re-checked on the server, and Playwright plus live-server tests before the client's UAT.
+- Buttons: **Read the case study (PDF)** (→ `assets/case-study-pos-multi-outlet.pdf`) · stack line "Apps Script · Google Sheets · Playwright"
+- Stats:
+  - **421** automated checks, all passing (129 Node.js simulation + 188 Playwright + 21 read-only + 83 write checks on the live server)
+  - **4 + 1** outlets and a central kitchen
+  - **4** user roles, guarded on the server
+  - **Rp0** hosting cost: Apps Script and Sheets
+- Screenshots (phone, 384×820 WebP): 1 · Cashier builds the cart · 2 · Digital receipt, no printer · 3 · Owner dashboard
+- Note under screenshots: Screens from the test database. Brand, contacts and outlet names are masked.
+
+### 5.4 Other projects I've worked on
 
 | Project | Description | Pill |
 |---|---|---|
@@ -132,7 +149,7 @@ verifyApprovalStatus(code, "New")
 
 **Skills**
 - Functional testing · Regression · FSD analysis · SQL Server · Katalon · Groovy · Redmine · AI tools (ChatGPT, Claude)
-- Learning (dashed): Selenium · Postman
+- Learning (dashed): Selenium · Postman · Playwright · Google Apps Script
 - Note: Dashed = currently learning
 - AI note: I use AI as a sparring partner: drafting and challenging test cases, brainstorming edge cases and comparing tools. I review and verify every output myself.
 
@@ -156,7 +173,9 @@ verifyApprovalStatus(code, "New")
 |---|---|
 | `assets/profile.jpg` (4:5 crop of the white-background portrait) | ready |
 | `assets/cv-mulla-shadra.pdf` (English CV) | to provide |
-| `assets/case-study-bond-estatement.pdf` (deck exported as PDF) | export from the Slides artifact |
+| `assets/case-study-bond-estatement.pdf` (deck exported as PDF) | ready |
+| `assets/case-study-pos-multi-outlet.pdf` (POS deck exported as PDF) | export from the Slides artifact |
+| `assets/pos-cashier.webp`, `pos-receipt.webp`, `pos-dashboard.webp` (masked screenshots) | ready |
 
 ## Open items
 

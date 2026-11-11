@@ -529,6 +529,64 @@ header {
   padding: 1px 7px;
   margin-right: 6px;
 }
+/* Second case study (POS): stats on the left, screenshots below */
+.case-two {
+  margin-top: 64px;
+  grid-template-columns: 0.8fr 1.2fr;
+}
+.case-two .featured-stats {
+  order: -1;
+  border-left: 0;
+  border-right: 2px solid var(--ink);
+}
+.pill-ok {
+  background: var(--accent);
+}
+.stack {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.shots {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  padding: 32px 40px 28px;
+  background: var(--surface);
+  border-top: 2px solid var(--ink);
+}
+.shots figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.shots a {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+}
+.shots img {
+  width: 100%;
+  border: 2px solid var(--ink);
+  border-radius: 16px;
+  box-shadow: 6px 6px 0 var(--ink);
+  background: #fff;
+}
+.shots figcaption {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+}
+.shots-note {
+  grid-column: 1 / -1;
+  font-size: 13px;
+  text-align: center;
+}
+
 /* Other projects */
 .other-title {
   font-size: 22px;
@@ -735,6 +793,10 @@ header {
     border-left: 0;
     border-top: 2px solid var(--ink);
   }
+  .case-two .featured-stats {
+    order: 0;
+    border-right: 0;
+  }
   .about-grid {
     grid-template-columns: 1fr;
   }
@@ -763,6 +825,17 @@ header {
   }
   .featured h3 {
     font-size: 26px;
+  }
+  .shots {
+    gap: 12px;
+    padding: 22px 16px 20px;
+  }
+  .shots img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 0 var(--ink);
+  }
+  .shots figcaption {
+    font-size: 12px;
   }
   .other li {
     flex-direction: column;

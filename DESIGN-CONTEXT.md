@@ -1,7 +1,7 @@
 # DESIGN CONTEXT: Mulla Shadra Portfolio
 
 > Design decisions for the portfolio. Safe to keep in the public repo.
-> **Status:** final for v1 · **Last updated:** 20 October 2026
+> **Status:** final for v1 · **Last updated:** 11 November 2026
 
 ---
 
@@ -53,12 +53,13 @@
 5. **Projects**:
    - Featured case study card (Bond e-statement platform) with steps, the "How the automation grew" story, PDF button and a stats panel.
    - **Inside the automation framework** (`#framework`): 3 cards, Locator → Page action → Test case, with short code.
+   - **Second case study** (`#pos`, Multi-outlet POS): same card style, mirrored (stats left, text right), with a row of 3 phone screenshots below. Stacks text → stats → screenshots at ≤ 900px.
    - "Other projects" list. A future case study can be promoted to the featured slot.
 6. **Experience**: timeline of 3 roles, heading "1 year 9 months in QA, plus a 1-year internship".
 7. **About**: IT-neutral statement, then Education, Skills (dashed chips = learning, AI note), Beyond work.
 8. **Contact footer**: black block, "Available now · based in Jakarta", "Hiring a QA Engineer? Let's talk.", email + LinkedIn.
 
-The case study lives in the PDF (`assets/case-study-bond-estatement.pdf`), not on a separate page.
+Each case study lives in its PDF (`assets/case-study-bond-estatement.pdf`, `assets/case-study-pos-multi-outlet.pdf`), not on a separate page.
 
 ## 7. Components
 
